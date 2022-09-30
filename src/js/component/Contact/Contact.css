@@ -1,0 +1,29 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_h2_contacto {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 60px;
+  color: rgb(1, 32, 84)
+}
+
+
+.form-group {
+  margin-top: 15px;
+  width: 200px;
+}
+
+
+.btn {
+  margin-top: 20px;
+  background-color: rgb(1, 32, 84);
+  color: white;
+}
+.modal {
+  color: black;
+}
+ 

@@ -1,0 +1,22 @@
+
+.data {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap; /*cuando no hay mas hueco en la linea, salta ala siguiente fila */
+  justify-content: center;
+  align-items: center;
+}
+.title_h2_datos {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 50px;
+  color: rgb(1, 32, 84);
+}
+.formacion_data {
+  margin-top: 20px;
+  font-size: 15px;
+}
+.title{
+  color: rgb(1, 32, 84);
+  font-size: 20px;
+}

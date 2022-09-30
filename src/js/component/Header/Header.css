@@ -1,0 +1,25 @@
+.header_h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 70px;
+  color: rgb(1, 32, 84);
+}
+
+.header_h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+}
+.contact {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+}
+
+.iconsContact {
+  font-size: 40px;
+  color: rgb(34, 182, 235);
+  margin: 90px 60px;
+}

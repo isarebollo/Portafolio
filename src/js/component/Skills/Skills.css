@@ -1,0 +1,31 @@
+.title_h2_skill {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 50px;
+  color: rgb(1, 32, 84);
+}
+.h6_info {
+  text-align: center;
+  font-size: 20px;
+}
+.iconsSkills {
+
+  margin-left: 30px;
+  
+}
+
+.Skills {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Skillh2 {
+  font-size: 30px;
+  text-decoration: 4px solid white;
+  text-align: center;
+  margin-top: 40px;
+  color: rgb(1, 32, 84);
+}

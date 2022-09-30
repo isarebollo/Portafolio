@@ -1,0 +1,30 @@
+.container_about {
+  display: flex;
+}
+
+.title_h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 60px;
+  color: rgb(1, 32, 84)
+}
+
+.info1 {
+  
+  font-size: 30px;
+
+}
+.div_info {
+  width: 600px;
+  height: auto;
+  margin-left: 150px;
+}
+.emoji {
+  
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  margin-left: 200px;
+  margin-top: 80px;
+}
