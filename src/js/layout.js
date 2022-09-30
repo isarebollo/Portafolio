@@ -19,7 +19,8 @@ import { Experiencia_y_Formacion } from "./component/Experiencia_y_Formacion/Exp
 const Layout = () => {
   //the basename is used when your project is published in a subdirectory and not in the root of the domain
   // you can set the basename on the .env file located at the root of this project, E.g: BASENAME=/react-hello-webapp/
-  const basename = process.env.BASENAME || "/Portafolio";
+  // const basename = process.env.BASENAME || "/Portafolio";
+  const basename = "/Portafolio";
 
   return (
     <div>
