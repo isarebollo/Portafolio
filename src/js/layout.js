@@ -28,7 +28,7 @@ const Layout = () => {
         <ScrollToTop>
           <Navbar />
           <Routes>
-            <Route element={<Header />} path="/cabecera" />
+            <Route element={<Header />} path= "/cabecera" />
             <Route element={<About />} path="/sobremi" />
             <Route element={<Skills />} path="/habilidades" />
             <Route element={<Proyects />} path="/proyectos" />
