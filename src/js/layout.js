@@ -19,7 +19,7 @@ import { Experiencia_y_Formacion } from "./component/Experiencia_y_Formacion/Exp
 const Layout = () => {
   //the basename is used when your project is published in a subdirectory and not in the root of the domain
   // you can set the basename on the .env file located at the root of this project, E.g: BASENAME=/react-hello-webapp/
-  const basename = process.env.BASENAME || "";
+  const basename = process.env.BASENAME || "/Portafolio";
 
   return (
     <div>
@@ -27,13 +27,13 @@ const Layout = () => {
         <ScrollToTop>
           <Navbar />
           <Routes>
-            <Route element={<Header />} path="/Portafolio/cabecera" />
-            <Route element={<About />} path="/Portafolio/sobremi" />
-            <Route element={<Skills />} path="/Portafolio/habilidades" />
-            <Route element={<Proyects />} path="/Portafolio/proyectos" />
-            <Route element={<Contact />} path="/Portafolio/contacto" />
-            <Route element={<Experiencia_y_Formacion />} path="/Portafolio/experienciayformacion" />
-            <Route element={<Home />} path="/Portafolio/" />
+            <Route element={<Header />} path="/cabecera" />
+            <Route element={<About />} path="/sobremi" />
+            <Route element={<Skills />} path="/habilidades" />
+            <Route element={<Proyects />} path="/proyectos" />
+            <Route element={<Contact />} path="/contacto" />
+            <Route element={<Experiencia_y_Formacion />} path="/experienciayformacion" />
+            <Route element={<Home />} path="/" />
 
             <Route element={<h1>Not found!</h1>} />
           </Routes>
