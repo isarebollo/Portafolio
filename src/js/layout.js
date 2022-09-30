@@ -27,13 +27,13 @@ const Layout = () => {
         <ScrollToTop>
           <Navbar />
           <Routes>
-            <Route element={<Header />} path="/cabecera" />
-            <Route element={<About />} path="/sobremi" />
-            <Route element={<Skills />} path="/habilidades" />
-            <Route element={<Proyects />} path="/proyectos" />
-            <Route element={<Contact />} path="/contacto" />
-            <Route element={<Experiencia_y_Formacion />} path="/experienciayformacion" />
-            <Route element={<Home />} path="/" />
+            <Route element={<Header />} path="/Portafolio/cabecera" />
+            <Route element={<About />} path="/Portafolio/sobremi" />
+            <Route element={<Skills />} path="/Portafolio/habilidades" />
+            <Route element={<Proyects />} path="/Portafolio/proyectos" />
+            <Route element={<Contact />} path="/Portafolio/contacto" />
+            <Route element={<Experiencia_y_Formacion />} path="/Portafolio/experienciayformacion" />
+            <Route element={<Home />} path="/Portafolio/" />
 
             <Route element={<h1>Not found!</h1>} />
           </Routes>
