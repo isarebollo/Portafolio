@@ -1,4 +1,4 @@
-Proyecto creado con:
+Portafolio creado con:
 
 REACTJS
 CSS 
