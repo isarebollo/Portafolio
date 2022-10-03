@@ -3,7 +3,7 @@
 }
 
 .title_h2 {
-  /* text-align: start; */
+  text-align: center;
   margin-left: 200px;
   margin-top: 50px;
   font-size: 60px;
@@ -12,17 +12,20 @@
 }
 
 .info1 {
-  
+
   font-size: 30px;
 
 }
+
 .div_info {
+  text-align: center;
   width: 600px;
   height: auto;
   margin-left: 150px;
 }
+
 .emoji {
-  
+
   width: 150px;
   height: 150px;
   border-radius: 50%;

@@ -47,13 +47,6 @@ const About = () => {
             </p>
           </div>
 
-          <div>
-            <img
-              className="emoji"
-              src="https://img1.freepng.es/20180328/kpw/kisspng-emoji-heart-iphone-love-emoji-5abb33e56ab9c3.3783402715222179574372.jpg"
-            />
-          </div>
-
         </div>
 
       </div>

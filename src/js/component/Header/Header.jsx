@@ -9,7 +9,7 @@ export const Header = () => {
         <div className="container">
           <div className="text-aling">
             <h1 className=" header_h1">
-              {"<"}Isabel Rebollo{"/>"}
+              {"< "}Isabel Rebollo{" />"}
             </h1>
 
           </div>
@@ -25,8 +25,8 @@ export const Header = () => {
               <img
                 src="https://www.vectorlogo.zone/logos/linkedin/linkedin-tile.svg"
                 alt=""
-                width="100"
-                height="100"
+                width="60"
+                height="60"
               />
             </div>
             <div className="iconsContact">
@@ -34,8 +34,8 @@ export const Header = () => {
                 <img
                   src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg"
                   alt="gmail"
-                  width="100"
-                  height="100"
+                  width="60"
+                  height="60"
                 />
               </a>
             </div>
@@ -43,8 +43,8 @@ export const Header = () => {
               <img
                 src="https://www.vectorlogo.zone/logos/github/github-icon.svg"
                 alt="github"
-                width="100"
-                height="100"
+                width="60"
+                height="60"
               />
             </div>
           </div>
