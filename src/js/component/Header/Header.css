@@ -1,13 +1,11 @@
 .header_h1 {
-  
+
   text-align: center;
   margin-top: 120px;
   font-size: 70px;
   color: white;
   text-shadow: 4px 4px 6px;
 }
-
-
 
 .header_h2 {
   text-align: center;
@@ -27,4 +25,12 @@
   font-size: 40px;
   color: rgb(34, 182, 235);
   margin: 90px 60px;
+}
+
+.section001 {
+  background-image: url("../../../img/Line1.png");
+  background-position: right;
+  
+ 
+
 }

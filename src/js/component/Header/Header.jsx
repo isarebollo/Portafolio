@@ -11,6 +11,7 @@ export const Header = () => {
             <h1 className=" header_h1">
               {"<"}Isabel Rebollo{"/>"}
             </h1>
+
           </div>
           <h2 className="header_h2">
             <span className="span1">Desarrolladora Full-stack</span>
