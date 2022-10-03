@@ -3,10 +3,10 @@ import React from "react";
 import "../../component/Navbar/Navbar.css";
 
 
+
 export const Navbar = () => {
   return (
     <>
-      
       {/* <nav className="navbar">
         <div className="container">
           <a className="text" href="/Portafolio/" aria-current="page">

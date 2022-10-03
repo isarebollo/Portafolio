@@ -1,19 +1,24 @@
 .header_h1 {
+  
   text-align: center;
-  margin-top: 50px;
+  margin-top: 120px;
   font-size: 70px;
-  color: rgb(1, 32, 84);
+  color: white;
+  text-shadow: 4px 4px 6px;
 }
+
+
 
 .header_h2 {
   text-align: center;
   margin-top: 50px;
   font-size: 25px;
 }
+
 .contact {
   width: auto;
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }

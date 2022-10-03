@@ -6,15 +6,16 @@
 
 .title_h2_contacto {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10px;
   font-size: 60px;
-  color: rgb(1, 32, 84)
+  color: rgb(1, 32, 84);
+  text-shadow: 4px 4px 6px;
 }
 
 
 .form-group {
   margin-top: 15px;
-  width: 200px;
+  width: 500px;
 }
 
 

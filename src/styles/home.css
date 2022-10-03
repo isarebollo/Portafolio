@@ -2,8 +2,8 @@ body {
   background-image: linear-gradient(
     135deg,
     rgb(1, 32, 84),
-    rgb(0, 184, 200),
-    rgb(21, 170, 181),
+    rgb(233, 26, 219),
+    rgb(0, 252, 243),
     rgb(34, 182, 235)
   );
   background-size: 500%;
@@ -118,23 +118,23 @@ body {
 }
 
 .section001 {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .section002 {
-  margin-bottom:50px;
+  margin-bottom:200px;
 }
 .section003 {
-  margin-bottom:50px;
+  margin-bottom:200px;
 }
 .section004 {
-  margin-bottom: 50px;
+  margin-bottom: 200px;
 }
 .section005 {
-  margin-bottom: 50px;
+  margin-bottom:200px;
   /* font-size: 15px; */
 }
 .section006 {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 /* 

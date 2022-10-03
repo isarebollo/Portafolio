@@ -3,10 +3,12 @@
 }
 
 .title_h2 {
-  text-align: center;
+  /* text-align: start; */
+  margin-left: 200px;
   margin-top: 50px;
   font-size: 60px;
-  color: rgb(1, 32, 84)
+  color: rgb(1, 32, 84);
+  text-shadow: 4px 4px 6px;
 }
 
 .info1 {
