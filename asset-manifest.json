@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.5958de9f.css",
-    "main.js": "/Portafolio/static/js/main.d2d5f936.js",
+    "main.css": "/Portafolio/static/css/main.73a922af.css",
+    "main.js": "/Portafolio/static/js/main.1e78df15.js",
     "static/media/Playdating.jpg": "/Portafolio/static/media/Playdating.111e6dd3cdeb9eddf00f.jpg",
+    "static/media/Line1.png": "/Portafolio/static/media/Line1.92fab0c4cc93c8735d9d.png",
     "index.html": "/Portafolio/index.html",
-    "main.5958de9f.css.map": "/Portafolio/static/css/main.5958de9f.css.map",
-    "main.d2d5f936.js.map": "/Portafolio/static/js/main.d2d5f936.js.map"
+    "main.73a922af.css.map": "/Portafolio/static/css/main.73a922af.css.map",
+    "main.1e78df15.js.map": "/Portafolio/static/js/main.1e78df15.js.map"
   },
   "entrypoints": [
-    "static/css/main.5958de9f.css",
-    "static/js/main.d2d5f936.js"
+    "static/css/main.73a922af.css",
+    "static/js/main.1e78df15.js"
   ]
 }
