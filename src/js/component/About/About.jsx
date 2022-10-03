@@ -2,12 +2,13 @@ import React from "react";
 import "../../component/About/About.css";
 
 
+
 const About = () => {
   return (
     <>
       <div className="section002">
         <h2 className="title_h2">Sobre mí</h2>
-        
+
         <div className="container_about">
           <div className="div_info">
             <p className="info1">
@@ -52,8 +53,11 @@ const About = () => {
               src="https://img1.freepng.es/20180328/kpw/kisspng-emoji-heart-iphone-love-emoji-5abb33e56ab9c3.3783402715222179574372.jpg"
             />
           </div>
+
         </div>
+
       </div>
+
     </>
   );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import "../../component/Skills/Skills.css";
 
+
 const Skills = () => {
   return (
     <>
@@ -213,6 +214,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
+        
       </div>
     </>
   );
