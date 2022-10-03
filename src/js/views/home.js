@@ -12,6 +12,7 @@ import { Experiencia_y_Formacion } from "../component/Experiencia_y_Formacion/Ex
 export const Home = () => {
   return (
     <>
+
       <Header />
       <About />
       <Skills />
