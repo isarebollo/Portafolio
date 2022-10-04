@@ -186,9 +186,9 @@ const Skills = () => {
 
                 <img
                   src="https://seeklogo.com/images/I/insomnia-logo-A35E09EB19-seeklogo.com.png"
-                  alt="heroku"
-                  width="60"
-                  height="60"
+                  alt="insomnia"
+                  width="30"
+                  height="50"
                 />
               </div>
               <div className="iconsSkills">
