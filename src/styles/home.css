@@ -2,7 +2,7 @@ body {
   background-image: linear-gradient(135deg,
       rgb(1, 32, 84),
       rgb(233, 26, 219),
-      rgb(0, 252, 243),
+      rgb(3, 208, 201),
       rgb(34, 182, 235));
   background-size: 500%;
   animation: fondo-anim 20s infinite alternate;
@@ -38,7 +38,7 @@ body {
   width: 100%;
 }
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 768px) {
 
   /* For tablets: */
   .col-s-1 {
@@ -168,6 +168,19 @@ body {
   margin-bottom: 10px;
 }
 
+
+@media only screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
 
 /* 
 AZUL OSCURO rgb(1, 32, 84)
