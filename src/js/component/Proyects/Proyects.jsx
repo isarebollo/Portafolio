@@ -1,8 +1,6 @@
 import React from "react";
 
-import playdating from "./../../../img/PlayDating.jpg";
-
-
+import PlayDating from "./../../../img/PlayDating.jpg";
 import "./../../component/Proyects/Proyects.css";
 
 export const Proyects = () => {
@@ -14,7 +12,7 @@ export const Proyects = () => {
         <div className="container proyects">
           <div className="col-6">
             <div className="card">
-              <img src={playdating} alt="Imagen del Proyecto PlayDating"/>
+              <img src={PlayDating} alt="Imagen del Proyecto PlayDating"/>
               <div className="card-body">
                 <h5 className="card-title">PLAYDATING</h5>
                 <p className="card-text">WebApp de eventos infantiles</p>
