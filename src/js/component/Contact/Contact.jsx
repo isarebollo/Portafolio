@@ -43,7 +43,7 @@ export const Contact = () => {
 
   return (
     <>
-      <div className="section006" id="formulario_de_contacto">
+      <div className="section006 mx-auto" id="formulario_de_contacto">
         <h2 className="text-center title_h2_contacto">Contacto</h2>
       </div>
       <div className="container contact">
@@ -75,7 +75,7 @@ export const Contact = () => {
           </div>
 
           <div className="form-group">
-            <div className="col-md-4">
+            <div className="col-md-4 ">
               <textarea
                 required
                 className="form-control"
@@ -87,7 +87,7 @@ export const Contact = () => {
             </div>
           </div>
           <div className="form-group">
-            <div className="col-md-12 text-center">
+            <div className="col-md-12" id="button_enviar">
               <button
                 onClick={handleShow}
                 type="submit"
