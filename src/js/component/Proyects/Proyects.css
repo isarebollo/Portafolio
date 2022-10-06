@@ -1,12 +1,11 @@
 .card {
   width: auto;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 5rem;
-  margin-left: 50px;
+ 
   color: black;
 }
 img {
