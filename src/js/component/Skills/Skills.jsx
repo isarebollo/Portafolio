@@ -5,7 +5,7 @@ import "../../component/Skills/Skills.css";
 const Skills = () => {
   return (
     <>
-      <div className="section003">
+      <div className="section003 mx-auto">
         <h2 className="title_h2_skill"> Habilidades</h2>
         <div className="container ">
           <h6 className="h6_info">
@@ -187,8 +187,7 @@ const Skills = () => {
                 <img
                   src="https://seeklogo.com/images/I/insomnia-logo-A35E09EB19-seeklogo.com.png"
                   alt="insomnia"
-                  width="30"
-                  height="50"
+                 
                 />
               </div>
               <div className="iconsSkills">

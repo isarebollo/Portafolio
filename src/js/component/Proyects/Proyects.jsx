@@ -10,7 +10,7 @@ export const Proyects = () => {
       <div className="section004">
         <h2 className="text-center title_h2_proyectos">Proyectos</h2>
 
-        <div className="container proyects col-12 ">
+        <div className="container proyects col-12 mx-auto ">
           <div className="col-6">
             <div className="card">
               <img src={playdating} />

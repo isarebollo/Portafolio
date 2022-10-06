@@ -30,7 +30,7 @@ export const Header = () => {
               />
             </div>
             <div className="iconsContact">
-              <a href="/Portafolio/contacto">
+               <a href="/Portafolio/contacto"> {/*tiene que enviar a la seccion del formulario */}
                 <img
                   src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg"
                   alt="gmail"
