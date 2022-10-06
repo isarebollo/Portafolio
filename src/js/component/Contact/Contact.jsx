@@ -49,58 +49,23 @@ export const Contact = () => {
       <div className="container contact">
         <form ref={form} onSubmit={sendEmail}>
           <div className="form-group ">
-            <div className="col-md-4">
-              <input
-                required
-                id="fname"
-                name="name"
-                type="text"
-                placeholder="Nombre "
-                className="form-control"
-              ></input>
-            </div>
-          </div>
 
-          <div className="form-group">
-            <div className="col-md-4">
-              <input
-                required
-                id="email"
-                
-                name="email"
-                type="email"
-                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$"
-                placeholder="Email"
-                className="form-control"
-              ></input>
+            <div className="mb-2 row">
+              <input type="text" name="name" placeholder="Name" className="form-control" required />
             </div>
-          </div>
-
-          <div className="form-group">
-            <div className="col-md-4 ">
-              <textarea
-                required
-                className="form-control"
-                id="message"
-                name="message"
-                placeholder="Escribe tu mensaje"
-                rows="5"
-              ></textarea>
+            <div className="mb-2 row">
+              <input type="email" pattern="^[\w]{1,}[\w.+-]{0,}@[\w-]{2,}([.][a-zA-Z]{2,}|[.][\w-]{2,}[.][a-zA-Z]{2,})$" name="email" placeholder="Email"
+                className="form-control" required />
             </div>
-          </div>
-          <div className="form-group">
+            <div className="row d-flex" >
+              <textarea className="form-control" name="message" placeholder="Message..." required />
+            </div>
             <div className="col-md-12" id="button_enviar">
-              <button
-                onClick={handleShow}
-                type="submit"
-                value="Send"
-                className="btn btn-lg"
-              >
-                Enviar
-              </button>
+              <button type="submit" className="btn" value="Send" >Enviar</button>
             </div>
           </div>
         </form>
+
         <Modal
           aria-labelledby="contained-modal-title-vcenter"
           centered
@@ -118,7 +83,8 @@ export const Contact = () => {
             <Button
               onClick={() => {
                 handleClose();
-                location.reload();
+
+
               }}
 
             >
