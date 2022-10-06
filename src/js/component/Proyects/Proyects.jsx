@@ -1,7 +1,7 @@
 import React from "react";
 
 import playdating from "../../../img/PlayDating.jpg";
-// import Starwars from "../../../img/starwars.jpg";
+
 import "../../component/Proyects/Proyects.css";
 
 export const Proyects = () => {
