@@ -22,30 +22,31 @@ export const Header = () => {
           </h2>
           <div className="contact col-12">
             <div className="iconsContact">
-              <img
-                src="https://www.vectorlogo.zone/logos/linkedin/linkedin-tile.svg"
-                alt=""
-                width="60"
-                height="60"
-              />
+              <a href="https://www.linkedin.com/in/isabelrebollo/">
+                <img
+                  src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg"
+                  alt="linkedin"
+                />
+              </a>
+
             </div>
+
             <div className="iconsContact">
-               <a href="/Portafolio/contacto"> {/*tiene que enviar a la seccion del formulario */}
+              <a href="#formulario_de_contacto"> {/*tiene que enviar a la seccion del formulario */}
                 <img
                   src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg"
-                  alt="gmail"
-                  width="60"
-                  height="60"
+                  alt="email"
+
                 />
               </a>
             </div>
             <div className="iconsContact">
-              <img
-                src="https://www.vectorlogo.zone/logos/github/github-icon.svg"
-                alt="github"
-                width="60"
-                height="60"
-              />
+              <a href="https://github.com/isarebollo">
+                <img
+                  src="https://www.vectorlogo.zone/logos/github/github-icon.svg"
+                  alt="github"
+
+                /></a>
             </div>
           </div>
         </div>

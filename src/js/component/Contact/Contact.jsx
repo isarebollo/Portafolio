@@ -43,7 +43,7 @@ export const Contact = () => {
 
   return (
     <>
-      <div className="section006">
+      <div className="section006" id="formulario_de_contacto">
         <h2 className="text-center title_h2_contacto">Contacto</h2>
       </div>
       <div className="container contact">

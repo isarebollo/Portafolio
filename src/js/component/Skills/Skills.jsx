@@ -9,7 +9,7 @@ const Skills = () => {
         <h2 className="title_h2_skill"> Habilidades</h2>
         <div className="container ">
           <h6 className="h6_info">
-            Estas son las tecnologias y herramientas con las que trabajo y me siento más cómoda: 
+            Estas son las tecnologias y herramientas con las que trabajo y me siento más cómoda:
           </h6>
 
           <div className="col-12">
@@ -26,20 +26,18 @@ const Skills = () => {
                 {/* html */}
 
                 <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                  src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"
                   alt="html5"
-                  width="70"
-                  height="70"
+
                 />
               </div>
               <div className="iconsSkills">
                 {/* css */}
 
                 <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                  src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg"
                   alt="css3"
-                  width="70"
-                  height="70"
+
                 />
               </div>
               <div className="iconsSkills">
@@ -48,8 +46,7 @@ const Skills = () => {
                 <img
                   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
                   alt="javascript"
-                  width="70"
-                  height="70"
+
                 />
               </div>
 
@@ -57,10 +54,9 @@ const Skills = () => {
                 {/* REACTJS */}
 
                 <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+                  src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
                   alt="react"
-                  width="70"
-                  height="70"
+
                 />
               </div>
 
@@ -68,10 +64,9 @@ const Skills = () => {
                 {/* BOOTSTRAP */}
 
                 <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+                  src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg"
                   alt="bootstrap"
-                  width="70"
-                  height="70"
+
                 />
               </div>
 
@@ -79,10 +74,9 @@ const Skills = () => {
                 {/* JEST */}
 
                 <img
-                  src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-ar21.svg"
+                  src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
                   alt="jest"
-                  width="70"
-                  height="70"
+
                 />
               </div>
             </div>
@@ -98,40 +92,36 @@ const Skills = () => {
                 {/* PYTHON */}
 
                 <img
-                  src="https://www.vectorlogo.zone/logos/python/python-vertical.svg"
+                  src="https://www.vectorlogo.zone/logos/python/python-icon.svg"
                   alt="python"
-                  width="70"
-                  height="70"
+
                 />
               </div>
               <div className="iconsSkills">
                 {/* FLASK */}
 
                 <img
-                  src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg"
+                  src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg"
                   alt="flask"
-                  width="70"
-                  height="70"
+
                 />
               </div>
 
               <div className="iconsSkills">
-                {/* JEST */}{" "}
+                {/*MYSQL */}{" "}
                 <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+                  src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg"
                   alt="mysql"
-                  width="70"
-                  height="70"
+
                 />
               </div>
               <div className="iconsSkills">
                 {/*Postgres  */}
 
                 <img
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+                  src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
                   alt="postgresql"
-                  width="70"
-                  height="70"
+
                 />
               </div>
             </div>
@@ -144,40 +134,36 @@ const Skills = () => {
               <div className="iconsSkills">
                 {/* github */}
                 <img
-                  src="https://www.vectorlogo.zone/logos/github/github-ar21.svg"
+                  src="https://www.vectorlogo.zone/logos/github/github-icon.svg"
                   alt="github"
-                  width="70"
-                  height="70"
+
                 />
               </div>
               <div className="iconsSkills">
                 {/* GIT */}
 
                 <img
-                  src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"
+                  src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
                   alt="git"
-                  width="70"
-                  height="70"
+
                 />
               </div>
               <div className="iconsSkills">
                 {/* Gitpod */}
 
                 <img
-                  src="https://www.vectorlogo.zone/logos/gitpodio/gitpodio-ar21.svg"
-                  alt="git"
-                  width="70"
-                  height="70"
+                  src="https://www.vectorlogo.zone/logos/gitpodio/gitpodio-icon.svg"
+                  alt="gitpod"
+
                 />
               </div>
               <div className="iconsSkills">
                 {/* Vscode */}
 
                 <img
-                  src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg"
+                  src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg"
                   alt="git"
-                  width="70"
-                  height="70"
+
                 />
               </div>
 
@@ -187,33 +173,31 @@ const Skills = () => {
                 <img
                   src="https://seeklogo.com/images/I/insomnia-logo-A35E09EB19-seeklogo.com.png"
                   alt="insomnia"
-                 
+
                 />
               </div>
               <div className="iconsSkills">
                 {/* Heroku */}
 
                 <img
-                  src="https://www.vectorlogo.zone/logos/heroku/heroku-ar21.svg"
+                  src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg"
                   alt="heroku"
-                  width="70"
-                  height="70"
+
                 />
               </div>
               <div className="iconsSkills">
                 {/* Postman */}
 
                 <img
-                  src="https://www.vectorlogo.zone/logos/getpostman/getpostman-ar21.svg"
+                  src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
                   alt="postman"
-                  width="70"
-                  height="70"
+
                 />
               </div>
             </div>
           </div>
         </div>
-        
+
       </div>
     </>
   );
