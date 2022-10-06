@@ -116,7 +116,7 @@ export const Contact = () => {
             <Button
               onClick={() => {
                 handleClose();
-                navigate("/cabecera");
+                navigate("/");
               }}
 
             >
