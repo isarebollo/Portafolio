@@ -1,6 +1,6 @@
 import React from "react";
 
-import PlayDating from "./../../../img/PlayDating.jpg";
+import PlayDating from "./../../../img/Playdating.jpg";
 import "./../../component/Proyects/Proyects.css";
 
 export const Proyects = () => {
