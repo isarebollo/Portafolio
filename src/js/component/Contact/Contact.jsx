@@ -66,8 +66,10 @@ export const Contact = () => {
               <input
                 required
                 id="email"
+                
                 name="email"
-                type="text"
+                type="email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$"
                 placeholder="Email"
                 className="form-control"
               ></input>
@@ -116,7 +118,7 @@ export const Contact = () => {
             <Button
               onClick={() => {
                 handleClose();
-                navigate("/");
+                location.reload();
               }}
 
             >
