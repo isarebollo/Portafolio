@@ -11,6 +11,9 @@
   color: rgb(1, 32, 84);
   text-shadow: 4px 4px 6px;
 }
+.header_h5{
+  text-align: center;
+}
 
 
 .form-group {

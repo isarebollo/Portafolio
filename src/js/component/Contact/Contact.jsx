@@ -7,8 +7,15 @@ import Button from "react-bootstrap/Button";
 import "../../component/Contact/Contact.css";
 
 export const Contact = () => {
-  const navigate = useNavigate();
+
+
+  const [textoAlerta, setTextoAlerta] = useState("");
   const [show, setShow] = useState(false);
+
+  const modalManager = (texto) => {
+    setTextoAlerta(texto);
+    handleShow();
+  };
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -32,19 +39,33 @@ export const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
-        },
+          handleShow()
+          modalManager("He recibido tu mensaje, en breves me pondré en contacto contigo, gracias.")
+          console.log(result);
+        })
+      .catch(
         (error) => {
+          handleShow()
+          modalManager("El mensaje no se pudo enviar. Puede mandarlo a isarebollo@gmail.com y me pondré en contacto contigo en la mayor brevedad posible, gracias")
           console.log(error.text);
         }
       );
     e.target.reset();
+
   };
+
 
   return (
     <>
       <div className="section006 mx-auto" id="formulario_de_contacto">
         <h2 className="text-center title_h2_contacto">Contacto</h2>
+        <h5 className="header_h5">
+          <span>Si tienes un proyecto interesante, tu empresa busca alguien con ganas de aportar valor o simplemente estas interesado en que colaboremos juntos.</span>
+          <br />
+          <br />
+          <span> Escríbeme y me pondré en contacto contigo lo antes posible.</span>
+        </h5>
+
       </div>
       <div className="container contact">
         <form ref={form} onSubmit={sendEmail}>
@@ -77,7 +98,8 @@ export const Contact = () => {
             <Modal.Title>Mensaje Enviado</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            He recibido tu mensaje, en breves me pondré en contacto contigo.
+            {textoAlerta}
+
           </Modal.Body>
           <Modal.Footer>
             <Button

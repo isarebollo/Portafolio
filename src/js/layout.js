@@ -13,7 +13,7 @@ import About from "./component/About/About.jsx";
 import Skills from "./component/Skills/Skills.jsx";
 import { Proyects } from "./component/Proyects/Proyects.jsx";
 import { Contact } from "./component/Contact/Contact.jsx";
-import { Experiencia_y_Formacion } from "./component/Experiencia_y_Formacion/Experiencia_y_Formacion.jsx";
+import  {Experiencia_y_Formacion}  from "./component/Experiencia_y_Formacion/Experiencia_y_Formacion.jsx";
 
 //create your first component
 const Layout = () => {
@@ -28,12 +28,12 @@ const Layout = () => {
         <ScrollToTop>
           <Navbar />
           <Routes>
-            <Route element={<Header />} path="/cabecera" />
-            <Route element={<About />} path="/sobremi" />
+            {/* <Route element={<Header />} path="/cabecera" /> */}
+            {/* <Route element={<About />} path="/sobremi" />
             <Route element={<Skills />} path="/habilidades" />
             <Route element={<Proyects />} path="/proyectos" />
             <Route element={<Contact />} path="/contacto" />
-            <Route element={<Experiencia_y_Formacion />} path="/experienciayformacion" />
+            <Route element={<Experiencia_y_Formacion />} path="/experienciayformacion" /> */}
             <Route element={<Home />} path="/" />
 
             <Route element={<h1>Not found!</h1>} />

@@ -9,7 +9,7 @@ const Skills = () => {
         <h2 className="title_h2_skill"> Habilidades</h2>
         <div className="container ">
           <h6 className="h6_info">
-            Estas son las tecnologias y herramientas con las que trabajo y me siento más cómoda:
+            Estas son las tecnologías y herramientas con las que trabajo y me siento más cómoda:
           </h6>
 
           <div className="col-12">
@@ -27,7 +27,7 @@ const Skills = () => {
 
                 <img
                   src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"
-                  alt="html5"
+                  alt="HTML5"
 
                 />
               </div>
@@ -36,7 +36,7 @@ const Skills = () => {
 
                 <img
                   src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg"
-                  alt="css3"
+                  alt="CSS3"
 
                 />
               </div>
@@ -45,7 +45,7 @@ const Skills = () => {
 
                 <img
                   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                  alt="javascript"
+                  alt="javaScript"
 
                 />
               </div>
@@ -55,7 +55,7 @@ const Skills = () => {
 
                 <img
                   src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
-                  alt="react"
+                  alt="ReactJS"
 
                 />
               </div>
@@ -65,7 +65,7 @@ const Skills = () => {
 
                 <img
                   src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg"
-                  alt="bootstrap"
+                  alt="Bootstrap"
 
                 />
               </div>
@@ -75,7 +75,7 @@ const Skills = () => {
 
                 <img
                   src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
-                  alt="jest"
+                  alt="Jest"
 
                 />
               </div>
@@ -93,7 +93,7 @@ const Skills = () => {
 
                 <img
                   src="https://www.vectorlogo.zone/logos/python/python-icon.svg"
-                  alt="python"
+                  alt="Python"
 
                 />
               </div>
@@ -102,7 +102,7 @@ const Skills = () => {
 
                 <img
                   src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg"
-                  alt="flask"
+                  alt="Flask"
 
                 />
               </div>
@@ -111,7 +111,7 @@ const Skills = () => {
                 {/*MYSQL */}{" "}
                 <img
                   src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg"
-                  alt="mysql"
+                  alt="MySQL"
 
                 />
               </div>
@@ -120,7 +120,7 @@ const Skills = () => {
 
                 <img
                   src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
-                  alt="postgresql"
+                  alt="PostgreSQL"
 
                 />
               </div>
@@ -135,7 +135,7 @@ const Skills = () => {
                 {/* github */}
                 <img
                   src="https://www.vectorlogo.zone/logos/github/github-icon.svg"
-                  alt="github"
+                  alt="GitHub"
 
                 />
               </div>
@@ -144,7 +144,7 @@ const Skills = () => {
 
                 <img
                   src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
-                  alt="git"
+                  alt="GIT"
 
                 />
               </div>
@@ -153,7 +153,7 @@ const Skills = () => {
 
                 <img
                   src="https://www.vectorlogo.zone/logos/gitpodio/gitpodio-icon.svg"
-                  alt="gitpod"
+                  alt="GitPod"
 
                 />
               </div>
@@ -162,7 +162,7 @@ const Skills = () => {
 
                 <img
                   src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg"
-                  alt="git"
+                  alt="Visual Studio Code"
 
                 />
               </div>
@@ -172,7 +172,7 @@ const Skills = () => {
 
                 <img
                   src="https://seeklogo.com/images/I/insomnia-logo-A35E09EB19-seeklogo.com.png"
-                  alt="insomnia"
+                  alt="Insomnia"
 
                 />
               </div>
@@ -181,7 +181,7 @@ const Skills = () => {
 
                 <img
                   src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg"
-                  alt="heroku"
+                  alt="Heroku"
 
                 />
               </div>
@@ -190,7 +190,7 @@ const Skills = () => {
 
                 <img
                   src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
-                  alt="postman"
+                  alt="Postman"
 
                 />
               </div>
