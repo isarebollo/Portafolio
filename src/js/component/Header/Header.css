@@ -3,7 +3,7 @@
   text-align: center;
   margin-top: 120px;
   font-size: 70px;
-  color: white;
+ 
   text-shadow: 4px 4px 6px;
 }
 
@@ -27,10 +27,3 @@
   margin: 10px 20px;
 }
 
-.section001 {
-  background-image: url("../../../img/Line1.png");
-  background-position: right;
-  
- 
-
-}
