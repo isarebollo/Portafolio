@@ -59,15 +59,17 @@ export const Contact = () => {
     <>
       <div className="section006 mx-auto" id="formulario_de_contacto">
         <h2 className="text-center title_h2_contacto">Contacto</h2>
-        <h5 className="header_h5">
-          <span>Si tienes un proyecto interesante, tu empresa busca alguien con ganas de aportar valor o simplemente estas interesado en que colaboremos juntos.</span>
-          <br />
-          <br />
-          <span> Escríbeme y me pondré en contacto contigo lo antes posible.</span>
-        </h5>
+
 
       </div>
+      <div >  <h5 className="header_h5">
+        <span>Si tienes un proyecto interesante, tu empresa busca alguien con ganas de aportar valor o simplemente estas interesado en que colaboremos juntos.</span>
+        <br />
+        <br />
+        <span> Escríbeme y me pondré en contacto contigo lo antes posible.</span>
+      </h5></div>
       <div className="container contact">
+
         <form ref={form} onSubmit={sendEmail}>
           <div className="form-group ">
 
