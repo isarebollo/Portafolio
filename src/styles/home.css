@@ -12,7 +12,7 @@ body {
   body {
     background-image: url("../img/fondo2.png");
 
-    background-repeat: no-repeat;
+    background-repeat: round space;
     background-attachment: cover;
 
   }
