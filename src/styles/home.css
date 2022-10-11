@@ -1,34 +1,20 @@
 body {
   background-image: url("../img/fondo.png");
   background-attachment: fixed;
-background-size: cover;
-
-  
-}
-
-
-
-@keyframes fondo-anim {
-  0% {
-    background-position: left;
-  }
-
-  100% {
-    background-position: right;
-  }
 }
 
 * {
   box-sizing: border-box;
 }
 
-/* @media only screen and (max-width: 600px) {
-   si el tamaño de la pantalla es menor a 600px cambia de color el fondo.
+@media only screen and (max-width: 600px) {
+
   body {
-    background-color: rgb(5, 39, 98);
-    color: white;
+    background-image: url("../img/fondo.png");
+    background-attachment: fixed;
+
   }
-} */
+}
 
 /* For mobile phones: */
 [class*="col-"] {
