@@ -5,23 +5,17 @@
   color: rgb(1, 32, 84);
   text-shadow: 4px 4px 6px;
 }
-
-
 .card {
   border-radius: 10%;
+  width: 400px;
 }
-
 .card-img-top {
-  max-width: 400px;
+  max-width: 320px;
   margin: auto;
   display: block;
   margin-top: 10px;
-  
-  
 }
-
 .btn {
-
   font-size: 25px;
   border-radius: 50%;
   align-items: center;
