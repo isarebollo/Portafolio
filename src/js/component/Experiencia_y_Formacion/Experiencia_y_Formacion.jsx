@@ -3,6 +3,8 @@ import "../../component/Experiencia_y_Formacion/Experiencia_y_Formacion.css";
 
 import { GiBookmarklet } from "react-icons/gi";
 import {MdWork} from "react-icons/md";
+
+
 export const Experiencia_y_Formacion = () => {
   return (
     <>

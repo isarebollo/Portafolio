@@ -173,6 +173,8 @@ const Skills = () => {
                 <img
                   src="https://seeklogo.com/images/I/insomnia-logo-A35E09EB19-seeklogo.com.png"
                   alt="Insomnia"
+                  width="50"
+                  height="50"
 
                 />
               </div>
