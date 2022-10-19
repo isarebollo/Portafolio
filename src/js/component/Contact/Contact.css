@@ -11,7 +11,8 @@
   color: rgb(1, 32, 84);
   text-shadow: 4px 4px 6px;
 }
-.header_h5{
+
+.header_h5 {
   text-align: center;
   margin: 50px 50px;
 }
@@ -20,20 +21,21 @@
 .form-group {
   margin-top: 10px;
   width: 250px;
-  
+
 }
 
 .btn {
-  
+
   background-color: rgb(1, 32, 84);
   color: white;
 }
-#button_enviar{
+
+#button_enviar {
 
   text-align: center;
   margin-top: 10px;
 }
+
 .modal {
   color: black;
 }
- 
