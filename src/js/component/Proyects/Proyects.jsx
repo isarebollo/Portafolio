@@ -13,7 +13,7 @@ export const Proyects = () => {
       <div className="section004">
         <h2 className="text-center title_h2_proyectos">Proyectos</h2>
         <div className="container">
-          <div className="row row-cols-1 row-cols-md-2 g-4">
+          <div className="row row-cols-1 row-cols-md-3 g-4">
             <div className="col">
               <div className="card text-center">
 
@@ -53,7 +53,7 @@ export const Proyects = () => {
                 <img src={Semaforo} className="card-img-top" alt="Proyecto Semáforo"></img>
                 <div className="card-body">
                   <h5 className="card-title">TRAFFIC LIGHT</h5>
-                  <p className="card-text">Semafóro que cambia de color de distintas maneras.</p>
+                  <p className="card-text">Semafóro creado con ReactJS que cambia de color de varias maneras.</p>
                   <a href="https://trafficlight-semaforo.netlify.app/"  target="_blank"rel="noreferrer">
                     <button  className="btn btn-outline-info"> <i id="btnicon"> <AiOutlineEye /></i> </button>
                   </a>
