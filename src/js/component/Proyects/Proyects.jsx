@@ -24,7 +24,7 @@ export const Proyects = () => {
                   <p className="card-text">Web de Eventos Infantiles en los que pasar un rato divertido.</p>
 
                   <div className="row">
-                    <div className="d-flex flex-row justify-content-center">
+                    <div className="d-flex flex-row justify-content-center ms-1">
                       <div className="me-3">
                         <a href="https://play-dating-1.herokuapp.com/" target="_blank" rel="noreferrer">
                           <button className="btn btn-outline-info"> <i> <AiOutlineEye /></i> </button>
