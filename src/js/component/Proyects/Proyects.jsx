@@ -23,12 +23,19 @@ export const Proyects = () => {
                   <h5 className="card-title">PlayDating</h5>
                   <p className="card-text">Web de Eventos Infantiles en los que pasar un rato divertido.</p>
 
-                  <a href="https://play-dating-1.herokuapp.com" target="_blank" rel="noreferrer">
-                    <button className="btn btn-outline-info"> <i> <AiOutlineEye /></i> </button>
-                  </a>
-                  <a href="https://github.com/isarebollo/PlayDating" target="_blank" rel="noreferrer">
-
-                    <button className="btn btn-outline-info"> <i><BsGithub /></i></button></a>
+                  <div className="row">
+                    <div className="d-flex flex-row justify-content-center">
+                      <div className="me-3">
+                        <a href="https://play-dating-1.herokuapp.com/" target="_blank" rel="noreferrer">
+                          <button className="btn btn-outline-info"> <i> <AiOutlineEye /></i> </button>
+                        </a>
+                      </div>
+                      <div >
+                        <a href="https://github.com/isarebollo/PlayDating" target="_blank" rel="noreferrer">
+                          <button className="btn btn-outline-info"> <i><BsGithub /></i></button></a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -39,10 +46,20 @@ export const Proyects = () => {
                   <h5 className="card-title">STARWARS DATABANK</h5>
                   <p className="card-text">Informacion de los personajes, vehiculos y planetas de la serie.</p>
 
+                  <div className="row">
+                    <div className="d-flex flex-row justify-content-center">
 
-                  <a href="https://github.com/isarebollo/StarWars-DataBank" target="_blank" rel="noreferrer">
-                    <button className="btn btn-outline-info"> <i ><BsGithub /></i></button>
-                  </a>
+                      <div >
+                        <a href="https://github.com/isarebollo/StarWars-DataBank" target="_blank" rel="noreferrer">
+                          <button className="btn btn-outline-info"> <i ><BsGithub /></i></button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
 
                 </div>
               </div>
@@ -53,13 +70,28 @@ export const Proyects = () => {
                 <div className="card-body">
                   <h5 className="card-title">TRAFFIC LIGHT</h5>
                   <p className="card-text">Semafóro creado con ReactJS que cambia de color de varias maneras.</p>
-                  <a href="https://trafficlight-semaforo.netlify.app/" target="_blank" rel="noreferrer">
-                    <button className="btn btn-outline-info"> <i> <AiOutlineEye /></i> </button>
-                  </a>
-                  <a href="https://github.com/isarebollo/Traffic-Light" target="_blank" rel="noreferrer">
-                    <button className="btn btn-outline-info"> <i><BsGithub /></i></button>
 
-                  </a>
+                  <div className="row">
+                    <div className="d-flex flex-row justify-content-center">
+                      <div className="me-3">
+                        <a href="https://trafficlight-semaforo.netlify.app/" target="_blank" rel="noreferrer">
+                          <button className="btn btn-outline-info"> <i> <AiOutlineEye /></i> </button>
+                        </a>
+                      </div>
+                      <div >
+                        <a href="https://github.com/isarebollo/Traffic-Light" target="_blank" rel="noreferrer">
+                          <button className="btn btn-outline-info"> <i><BsGithub /></i></button>
+
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
+
 
                 </div>
               </div>
