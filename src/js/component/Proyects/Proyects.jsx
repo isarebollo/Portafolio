@@ -4,6 +4,7 @@ import React from "react";
 import PlayDating from "./../../../img/Playdating.jpg";
 import Semaforo from "./../../../img/Semaforo.jpg";
 import StarWars from "./../../../img/StarWars.jpg";
+import TodoList from "./../../../img/TodoList.jpg";
 import { BsGithub } from "react-icons/bs";
 import { AiOutlineEye } from "react-icons/ai";
 import "./../../component/Proyects/Proyects.css";
@@ -57,13 +58,37 @@ export const Proyects = () => {
                     </div>
                   </div>
 
-
-
-
-
                 </div>
               </div>
             </div>
+         
+
+            <div className="col">
+              <div className="card text-center">
+                <img src={TodoList} className="card-img-top" alt="Proyecto Semáforo"></img>
+                <div className="card-body">
+                  <h5 className="card-title">TODO LIST</h5>
+                  <p className="card-text">Lista con las tareas pendientes que tengas por hacer.</p>
+
+                  <div className="row">
+                    <div className="d-flex flex-row justify-content-center">
+                      <div className="me-3">
+                        {/* <a href="https://trafficlight-semaforo.netlify.app/" target="_blank" rel="noreferrer">
+                          <button className="btn btn-outline-info"> <i> <AiOutlineEye /></i> </button>
+                        </a> */}
+                      </div>
+                      <div >
+                        <a href="https://github.com/isarebollo/TodoList" target="_blank" rel="noreferrer">
+                          <button className="btn btn-outline-info"> <i><BsGithub /></i></button>
+
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="col">
               <div className="card text-center">
                 <img src={Semaforo} className="card-img-top" alt="Proyecto Semáforo"></img>
@@ -86,16 +111,10 @@ export const Proyects = () => {
                       </div>
                     </div>
                   </div>
-
-
-
-
-
-
-
                 </div>
               </div>
             </div>
+
           </div>
 
 
