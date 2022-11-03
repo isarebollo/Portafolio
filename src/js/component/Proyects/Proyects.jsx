@@ -73,9 +73,9 @@ export const Proyects = () => {
                   <div className="row">
                     <div className="d-flex flex-row justify-content-center">
                       <div className="me-3">
-                        {/* <a href="https://trafficlight-semaforo.netlify.app/" target="_blank" rel="noreferrer">
+                        <a href="https://isatasklist.netlify.app" target="_blank" rel="noreferrer">
                           <button className="btn btn-outline-info"> <i> <AiOutlineEye /></i> </button>
-                        </a> */}
+                        </a>
                       </div>
                       <div >
                         <a href="https://github.com/isarebollo/TodoList" target="_blank" rel="noreferrer">
