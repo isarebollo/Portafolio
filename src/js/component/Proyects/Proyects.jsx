@@ -22,12 +22,12 @@ export const Proyects = () => {
                 <img src={PlayDating} className="card-img-top" alt="Proyecto Playdating"></img>
                 <div className="card-body">
                   <h5 className="card-title">PlayDating</h5>
-                  <p className="card-text">Web de Eventos Infantiles en los que pasar un rato divertido.</p>
+                  <p className="card-text">AppWeb de Eventos Infantiles en los que pasar un rato divertido con tus hijos.</p>
 
                   <div className="row">
                     <div className="d-flex flex-row justify-content-center ms-1">
                       <div className="me-3">
-                        <a href="https://play-dating-1.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <a href="https://playdating.herokuapp.com/" target="_blank" rel="noreferrer">
                           <button className="btn btn-outline-info"> <i> <AiOutlineEye /></i> </button>
                         </a>
                       </div>
