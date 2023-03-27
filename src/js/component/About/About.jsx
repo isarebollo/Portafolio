@@ -19,8 +19,7 @@ const About = () => {
           </p>
           <p className="text_info">
             Después de trabajar como Técnico de Farmacia 👩🏽‍💼, me enfrento a
-            este nuevo reto, trabajar en el mundo de la tecnología, el cual
-            siempre me ha llamado la atención.{" "}
+            este nuevo reto, trabajar en el mundo de la tecnología.{" "}
           </p>
 
           <p className="text_info">

@@ -42,6 +42,31 @@ export const Proyects = () => {
             </div>
             <div className="col">
               <div className="card text-center">
+
+                <img src={PlayDating} className="card-img-top" alt="Proyecto Playdating"></img>
+                <div className="card-body">
+                  <h5 className="card-title">Onky-Meat</h5>
+                  <p className="card-text">Pagina Web  Carnicería <br /> en desarollo.</p>
+
+                  <div className="row">
+                    <div className="d-flex flex-row justify-content-center ms-1">
+                      <div className="me-3">
+                        <a href="https://carniceriaonkymeats.netlify.app/" target="_blank" rel="noreferrer">
+                          <button className="btn btn-outline-info"> <i> <AiOutlineEye /></i> </button>
+                        </a>
+                      </div>
+                      <div >
+                        <a href="https://github.com/isarebollo/Pagina-Web-Carniceria" target="_blank" rel="noreferrer">
+                          <button className="btn btn-outline-info"> <i><BsGithub /></i></button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="card text-center">
                 <img src={StarWars} className="card-img-top" alt="Proyecto StarWars"></img>
                 <div className="card-body">
                   <h5 className="card-title">STARWARS DATABANK</h5>
