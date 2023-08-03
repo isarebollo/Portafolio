@@ -49,6 +49,7 @@ const Skills = () => {
 
                 />
               </div>
+            
 
               <div className="iconsSkills">
                 {/* REACTJS */}
@@ -56,6 +57,24 @@ const Skills = () => {
                 <img
                   src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
                   alt="ReactJS"
+
+                />
+              </div>
+              <div className="iconsSkills">
+                {/* TypeScript */}
+
+                <img
+                  src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg"
+                  alt="TypeScript"
+
+                />
+              </div>
+              <div className="iconsSkills">
+                {/* Angular */}
+
+                <img
+                  src="https://www.vectorlogo.zone/logos/angular/angular-icon.svg"
+                  alt="Angular"
 
                 />
               </div>
@@ -103,6 +122,23 @@ const Skills = () => {
                 <img
                   src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg"
                   alt="Flask"
+
+                />
+              </div>
+              <div className="iconsSkills">
+                {/* Java */}
+
+                <img
+                  src="https://www.vectorlogo.zone/logos/java/java-icon.svg"
+                  alt="Java"
+
+                />
+              </div> <div className="iconsSkills">
+                {/* SpringBoot */}
+
+                <img
+                  src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
+                  alt="SpringBoot"
 
                 />
               </div>

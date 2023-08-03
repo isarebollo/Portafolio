@@ -2,7 +2,7 @@
 .data {
   width: auto;
   display: flex;
-  flex-wrap: wrap; /*cuando no hay mas hueco en la linea, salta ala siguiente fila */
+  flex-wrap: wrap; 
   justify-content: center;
   align-items: center;
 }
@@ -20,4 +20,8 @@
 .title{
   color: rgb(1, 32, 84);
   font-size: 20px;
+} 
+
+.img-small {
+  max-width: 450px; 
 }
